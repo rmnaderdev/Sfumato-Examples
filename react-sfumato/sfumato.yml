@@ -1,0 +1,114 @@
+# SFUMATO Reference Project Configuration
+# ==============================================================================
+# In the Theme section, make changes and remove any settings for which defaults
+# will be used to keep this file manageable.
+# ==============================================================================
+
+# One or more project paths:
+# - Path: relative to the location of this file
+# - Extensions: comma separated list of file extensions to watch/process
+# - Recurse: watch/process all subdirectories
+ProjectPaths:
+
+    - Path: src
+      Extensions: tsx,jsx,scss
+      Recurse: true
+
+    - Path: ./
+      Extensions: html
+      Recurse: false
+
+# Dark theme options:
+#   - class: html tag class "theme-dark" triggers dark mode styles
+#   - media: system theme triggers dark mode styles
+DarkMode: class
+
+# Use with DarkMode:class; use html tag class "theme-auto" to trigger dark mode styles
+# with the system theme
+UseAutoTheme: true
+
+# This example shows all available option groups.
+# Include one or more to add custom options or replace existing ones.
+# The Theme item or any of its option groups can be omitted.
+# * Options use SCSS values
+Theme:
+  
+    UseAdaptiveLayout: true
+    
+    MediaBreakpoint:
+        Sm: 640px
+        Md: 768px
+        Lg: 1024px
+        Xl: 1280px
+        Xxl: 1536px
+    
+    FontSizeUnit:
+        Zero: 4vw
+        Mobi: 4vw
+        Tabp: 1.45vw
+        Tabl: 1.4vw
+        Desk: 16px
+        Wide: 14px
+        Vast: 12px
+    
+    FontFamily:
+        body: "\"SFProDisplayWeb\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Font Awesome 6 Pro\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+        heading: "\"SFProDisplayWeb\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Font Awesome 6 Pro\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+        buttons: "\"SFProDisplayWeb\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Font Awesome 6 Pro\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+        mono: "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace"
+
+    TextSize:
+        eyebrow: clamp(0.74375rem, 3.6975vw, 0.9rem)
+        icons: 2.25rem
+
+    BorderWidth:
+        1: 1px
+
+    Padding:
+        mobi-x: 1.5rem
+        tabp-x: 3rem
+        tabl-x: 3rem
+        mobi-y: 4rem
+        tabp-y: 5rem
+        tabl-y: 5rem
+
+    MaxWidth:        
+        body: 90rem
+
+    Color:
+        primary: "#007cea"
+        primary-tint: "#0b8eff"
+        primary-shade: "#005daf"
+        primary-text: rgba(255, 255, 255, 0.85)
+        secondary: "#89c8ff"
+        secondary-tint: "#c8e5ff"
+        secondary-shade: "#64a3d8"
+        secondary-text: rgba(255, 255, 255, 0.85)
+        tertiary: "#00be6d"
+        tertiary-tint: "#11cf7c"
+        tertiary-shade: "#03a55f"
+        tertiary-text: rgba(255, 255, 255, 0.85)
+
+        canvas: white
+        canvas-text: rgba(0, 0, 0, 0.85)
+        canvas-bold: black
+        code-panel: "#0C1824"
+        line: "#d8e3ef"
+        overlay: "#004a8b"
+        overlay-text: white
+
+        dark-primary: "#004d91"
+        dark-primary-text: rgba(255, 255, 255, 0.85)
+
+        dark-canvas: "#0e1c29"
+        dark-canvas-text: rgba(255, 255, 255, 0.85)
+        dark-canvas-bold: white
+        dark-canvas-shade: "#011323"
+        dark-code-panel: "#0C1824"
+        dark-line: "#1f3345"
+        dark-canvas-menu: "#334455"
+
+    Transition:
+        navbar: "transition-property: top,padding,background-color; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 250ms;"
+        overlay: "transition-property: background-color,backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 350ms;"
+
