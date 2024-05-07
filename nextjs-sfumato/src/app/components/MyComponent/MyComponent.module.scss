@@ -1,0 +1,4 @@
+// Modify this file to change the styles of your app component. You can also use @apply directive to use Sfumato CSS classes.
+.dashboard {
+  @apply text-gray-900 bg-yellow-400 px-20 py-6;
+}

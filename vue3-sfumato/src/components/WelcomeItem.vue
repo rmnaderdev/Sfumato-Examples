@@ -1,5 +1,5 @@
 <template>
-  <div class="item">
+  <div class="item flex relative mt-8">
     <i>
       <slot name="icon"></slot>
     </i>
@@ -13,12 +13,6 @@
 </template>
 
 <style scoped>
-.item {
-  margin-top: 2rem;
-  display: flex;
-  position: relative;
-}
-
 .details {
   flex: 1;
   margin-left: 1rem;

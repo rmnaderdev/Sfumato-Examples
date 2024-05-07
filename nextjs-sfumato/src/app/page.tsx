@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import MyComponent from "./components/MyComponent/MyComponent";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -108,6 +110,9 @@ export default function Home() {
           </p>
         </a>
       </div>
+      <MyComponent>
+        <p>Component CSS module testing</p>
+      </MyComponent>
     </main>
   );
 }

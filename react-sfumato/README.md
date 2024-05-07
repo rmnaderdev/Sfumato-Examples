@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get React working in Vite with HMR, Sfumato, and some ESLint rules. While developing, you will need to run the sfumato watcher. You can run the watcher by running `npm run sfumato:watch` or `yarn sfumato:watch`.
 
 Currently, two official plugins are available:
 

@@ -1,9 +1,13 @@
+// Modify this file to change the styles of your app component. You can also use @apply directive to use Sfumato CSS classes.
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: rgb(31, 41, 55);
+
+  // Apply Sfumato CSS class
+  @apply bg-gray-800;
 }
 
 .logo {
@@ -12,13 +16,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
-
 .logo:hover {
-  filter: drop-shadow(0 0 2em rgba(100, 108, 255, 0.6666666667));
+  filter: drop-shadow(0 0 2em #646cffaa);
 }
-
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em rgba(97, 218, 251, 0.6666666667));
+  filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
 @keyframes logo-spin {
@@ -29,11 +31,13 @@
     transform: rotate(360deg);
   }
 }
+
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
+
 .card {
   padding: 2em;
 }
@@ -41,5 +45,3 @@
 .read-the-docs {
   color: #888;
 }
-
-/*# sourceMappingURL=App.css.map */
