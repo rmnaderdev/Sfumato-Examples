@@ -4,12 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "yarn sfumato:build-prod && next build",
+    "build": "yarn sf:build && next build",
     "start": "next start",
     "lint": "next lint",
-    "sfumato:watch": "sfumato watch",
-    "sfumato:build": "sfumato build",
-    "sfumato:build-prod": "sfumato build --minify"
+    "sf:watch": "sfumato watch",
+    "sf:build": "sfumato build"
   },
   "dependencies": {
     "next": "14.2.3",

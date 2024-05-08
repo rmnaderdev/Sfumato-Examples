@@ -24,7 +24,7 @@ yarn dev
 
 ### Run the sfumato watcher for Development
 ```sh
-yarn sfumato
+yarn sf:watch
 ```
 
 

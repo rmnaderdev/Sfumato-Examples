@@ -7,11 +7,10 @@
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
-    "build-only": "yarn sfumato:build-prod && vite build",
+    "build-only": "yarn sf:build && vite build",
     "type-check": "vue-tsc --build --force",
-    "sfumato:watch": "sfumato watch",
-    "sfumato:build": "sfumato build",
-    "sfumato:build-prod": "sfumato build --minify"
+    "sf:watch": "sfumato watch",
+    "sf:build": "sfumato build"
   },
   "dependencies": {
     "pinia": "^2.1.7",

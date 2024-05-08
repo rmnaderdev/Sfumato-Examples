@@ -17,28 +17,26 @@ bun dev
 Then, run the sfumato watcher:
 
 ```bash
-npm run sfumato:watch
+npm run sf:watch
 # or
-yarn sfumato:watch
+yarn sf:watch
 # or
-pnpm sfumato:watch
+pnpm sf:watch
 # or
-bun sfumato:watch
+bun sf:watch
 ```
 
-To build sfumato:
+To build sf:
 
 ```bash
-npm run sfumato:build
+npm run sf:build
 # or
-yarn sfumato:build
+yarn sf:build
 # or
-pnpm sfumato:build
+pnpm sf:build
 # or
-bun sfumato:build
+bun sf:build
 ```
-
-`sfumato:build-prod` is also available for production.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -63,4 +61,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 
-// Having the `tailwind.config.ts` file is intentional. It tells the ide how to handle the sfumato classes in the intellisense.
+Having the `tailwind.config.ts` file is intentional. It tells the ide how to handle the sfumato classes in the intellisense.

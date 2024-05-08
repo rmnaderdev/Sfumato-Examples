@@ -12,18 +12,16 @@ dotnet tool install --global argentini.sfumato
 For any of these projects, you need to run the following command to generate the CSS files during development:
 
 ```bash
-yarn sfumato:watch
+yarn sf:watch
 ```
 
 To generate the CSS files for production, run the following command:
 
 ```bash
-yarn sfumato:build
-# or
-yarn sfumato:build-prod # for minified CSS
+yarn sf:build
 ```
 
-The examples in this repo already run the `sfumato:build` command when you execute the `yarn build` command for building the project.
+The examples in this repo already run the `sf:build` command when you execute the `yarn build` command for building the project.
 
 ### Examples in this repository:
 

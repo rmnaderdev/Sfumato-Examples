@@ -111,7 +111,7 @@ export default function Home() {
         </a>
       </div>
       <MyComponent>
-        <p>Component CSS module testing</p>
+        <p>Component testing</p>
       </MyComponent>
     </main>
   );

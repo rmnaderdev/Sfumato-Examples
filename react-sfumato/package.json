@@ -5,12 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "yarn sfumato:build && tsc && vite build",
+    "build": "yarn sf:build && tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "sfumato:watch": "sfumato watch",
-    "sfumato:build": "sfumato build",
-    "sfumato:build-prod": "sfumato build --minify"
+    "sf:watch": "sfumato watch",
+    "sf:build": "sfumato build"
   },
   "dependencies": {
     "react": "^18.2.0",
