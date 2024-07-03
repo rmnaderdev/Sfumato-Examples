@@ -1,0 +1,23 @@
+{
+  "name": "lit-ts-sfumato",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "watch": "concurrently \"yarn sf:watch\" \"yarn dev\"",
+    "dev": "vite dev",
+    "sf:watch": "sfumato watch",
+    "build": "yarn sf:build && tsc && vite build",
+    "sf:build": "sfumato build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lit": "^3.1.4"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1",
+    "vite-plugin-mkcert": "^1.17.5"
+  }
+}
