@@ -28,7 +28,7 @@ The examples in this repo already run the `sf:build` command when you execute th
 - [NextJs Example](./nextjs-sfumato)
 - [React Example](./react-sfumato)
 - [Vue Example](./vue-sfumato)
-- [Lit TS Example] (./lit-ts-sfumato)
+- [Lit TS Example](./lit-ts-sfumato)
 - Angular Example (TODO)
 - Svelte Example (TODO)
 - Blazor Example (TODO)
